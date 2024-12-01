@@ -32,8 +32,6 @@ def tabl_processing(page):
     #     print(rw.text_content())
 
 
-
-
 def run(playwright: Playwright) -> None:
     path = r'C:\Users\Linar\AppData\Local\Chromium\User Data'
     browser = playwright.chromium.launch_persistent_context(user_data_dir=path, headless=False,
